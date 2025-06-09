@@ -10,7 +10,7 @@ Run `python main.py` to compute **Bayesian Overdensity**. The details are descri
   `RA` (Right Ascension), `Dec` (Declination), `z` (Redshift) 
 #### Output Catalog Format "BayeskNN_overden.npy"
 - **File Format**: npy (n,10)
-- **Required Columns**:  
+- **Output Columns**:  
    1-10. BayeskNN_overden: log(1+δ'_k), k = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 
 ##### How to read '*.npy'? Use python "numpy.load" 
